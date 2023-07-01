@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Listings</title>
+    </head>
+    <body>
+        <h1>Voila la vue listings</h1>
+        <p> {% for listing in listings %}
+        <ul>
+            <li>{{listing.title}}</li>
+        </ul>
+        {% endfor %}
+        </p>
+    </body>
+</html>
